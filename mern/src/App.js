@@ -19,7 +19,7 @@ export default class App extends Component {
       <Link to="/"><img src="https://img.icons8.com/office/30/000000/reddit.png" alt=""/></Link>
       <Link to='/post'>Posts</Link>
       
-    <h1> {this.props.data[1].name}</h1>
+   
     <input type="text"></input>
     <input type="submit" />
     <button>Login</button>
@@ -29,7 +29,7 @@ export default class App extends Component {
     <Post> </Post>
       <Switch>
       <Route path="/"/>
-  <Route path="/post" render={() => <Post data={this.props.data[0].post} />} />
+  {/* <Route path="/post" render={() => <Post data={this.props.data[0].post} />} /> */}
       </Switch>
     </main>
     </div>

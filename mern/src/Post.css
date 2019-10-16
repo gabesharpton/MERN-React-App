@@ -1,0 +1,20 @@
+li.container{
+    border: 1px solid rgb(62, 62, 62);
+    margin: 10px;
+    list-style-type: none;
+    padding: 5px 0 150px 0;
+    background-color: white;
+    
+}
+h2{
+    
+    position: relative;
+    left: 15px;
+    top: -15px;
+    text-align: left;
+    font-weight: 900;
+    font-size: 35px;
+
+}
+
+

@@ -1,10 +1,12 @@
 [
     {
         "name": "test",
-        "post" : "This is a test post"
+        "post" : "This is a test post",
+        "likes": "0"
     },
     {
         "name": "test2",
-        "post": "This is my second post"
+        "post": "This is my second post",
+        "likes": "1"
     }
 ]
